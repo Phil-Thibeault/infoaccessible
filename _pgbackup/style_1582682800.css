@@ -65,8 +65,7 @@
 
 .container h2:before {
     content: '|';
-    position: relative;
-    left: -1rem;
+    margin-right: 1.2vw;
 }
 
 .container .infoList li {
@@ -80,11 +79,7 @@
 }
 
 ul li {
-    margin-bottom: 1.3rem !important;
-}
-
-p {
-    font-size: 1.2rem !important;
+    margin-bottom: 1.5rem;
 }
 
 footer {

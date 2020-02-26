@@ -65,8 +65,7 @@
 
 .container h2:before {
     content: '|';
-    position: relative;
-    left: -1rem;
+    margin-right: 1.2vw;
 }
 
 .container .infoList li {
@@ -79,15 +78,6 @@
     line-height: 2.2rem;
 }
 
-ul li {
-    margin-bottom: 1.3rem !important;
-}
-
-p {
-    font-size: 1.2rem !important;
-}
-
-footer {
+footer .row {
     height: 100px;
-    position: absolute !important;
 }
