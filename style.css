@@ -34,6 +34,7 @@
 
 .nav_desktop a:hover i {
     transform: scale(1.2);
+    text-decoration: none;
 }
 
 .navbar-brand {
@@ -72,4 +73,12 @@
 
 footer {
     height: 100px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav_desktop a:hover p {
+    text-decoration: underline;
 }

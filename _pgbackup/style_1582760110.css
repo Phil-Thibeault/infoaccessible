@@ -28,8 +28,12 @@
     }
 }
 
-.nav_desktop .fas {
-    text-decoration: none;
+.nav_desktop a i {
+    transition: 0.2s;
+}
+
+.nav_desktop a:hover i {
+    transform: scale(1.2);
 }
 
 .navbar-brand {
@@ -51,6 +55,21 @@
     margin-top: 2.2vw;
 }
 
+.container h2:before {
+    content: '|';
+    margin-right: 1.2vw;
+}
+
 .container .infoList li {
     margin-top: 1vw;
+}
+
+.container p {
+    margin-left: 2vw;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+footer {
+    height: 100px;
 }
