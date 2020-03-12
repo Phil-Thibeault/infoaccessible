@@ -68,18 +68,6 @@ a:hover {
     .list {
         padding-left: 3.5rem;
     }
-    
-    .icone {
-        display: flex;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 200px;
-        background-color: #b0d3e6;
-        justify-content: center;
-        padding-top: 50px;
-    }
 }
 
 @media (max-width:1200px) {
@@ -113,5 +101,17 @@ a:hover {
 
     .navbar {
         display: none;
+    }
+    
+    .icone {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 200px;
+        background-color: #b0d3e6;
+        justify-content: center;
+        padding-top: 50px;
     }
 }
