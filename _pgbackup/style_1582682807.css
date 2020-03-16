@@ -42,7 +42,6 @@
 
 .nav_desktop a:hover i {
     transform: scale(1.2);
-    text-decoration: none;
 }
 
 .navbar-brand {
@@ -66,8 +65,7 @@
 
 .container h2:before {
     content: '|';
-    position: relative;
-    left: -1rem;
+    margin-right: 1.2vw;
 }
 
 .container .infoList li {
@@ -84,82 +82,7 @@ ul li {
     margin-bottom: 1.3rem !important;
 }
 
-p {
-    font-size: 1.2rem !important;
-}
-
 footer {
     height: 100px;
-	position: absolute !important;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.nav_desktop a:hover p {
-    text-decoration: underline;
-}
-
-.list li {
-    padding-left: 2rem;
-}
-
-.list {
-}
-
-.icone {
-    display: none;
-}
-
-@media screen and (min-width: 1201px){
-    .list {
-        padding-left: 3.5rem;
-    }
-    
-    .icone {
-        display: flex;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 200px;
-        background-color: #b0d3e6;
-        justify-content: center;
-        padding-top: 50px;
-    }
-}
-
-@media (max-width:1200px) {
-    .imgDesktopLogo {
-        width: 6rem !important;
-    }
-
-    .logoTitle {
-        font-size: 1rem !important;
-    }
-
-    .list {
-        padding-left: 45px;
-    }
-}
-
-@media (max-width:991px) {
-    .nav_desktop {
-        display: none;
-    }
-
-    .navbar {
-        display: block;
-    }
-}
-
-@media (min-width:992px) {
-    .nav_desktop {
-        display: ;
-    }
-
-    .navbar {
-        display: none;
-    }
+    position: absolute !important;
 }
