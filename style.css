@@ -90,7 +90,7 @@ p {
 
 footer {
     height: 100px;
-	position: absolute !important;
+    position: absolute !important;
 }
 
 a:hover {
@@ -112,11 +112,11 @@ a:hover {
     display: none;
 }
 
-@media screen and (min-width: 1201px){
+@media screen and (min-width: 1500px){
     .list {
         padding-left: 3.5rem;
     }
-    
+
     .icone {
         display: flex;
         position: absolute;
@@ -126,7 +126,7 @@ a:hover {
         width: 200px;
         background-color: #b0d3e6;
         justify-content: center;
-        padding-top: 50px;
+        align-items: center;
     }
 }
 

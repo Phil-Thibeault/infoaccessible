@@ -26,10 +26,9 @@
         <!-- Placed at the end of the document so the pages load faster -->         
         <div class="container-fluid" style=" 
 background-color: #F8F8F8;
-    position: sticky !important;
-    top: 0;
-    z-index: 999;
-    top: -10.2vw;
+position: sticky !important;
+z-index: 999;
+top: 0;
 " data-pgc="nav"> 
             <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
                 <img src=".\assets\img\logo_recherche_SI.png" style="width: 5rem;"> 
@@ -193,7 +192,7 @@ margin: 0 8px;
 margin-bottom: 0;
 font-size: 1.3rem;
 margin: 0 8px;
-">Images</a>
+">Images</a> 
                 </div>                 
             </div>             
         </div>         
@@ -202,16 +201,17 @@ font-weight: bolder;
 font-family: Roboto;
 padding-top: 10px;
 max-width: none;
-padding: 0 15%;
+padding-left: 15%;
 position: relative;
-height: 100vh;
+min-height: calc(100vh - 189px - 70px);
+padding-bottom: 100px;
 "> 
-            <div class="icone">
+            <div class="icone"> 
                 <i class="fas fa-home" style=" 
 					font-size: 9rem;
 					color: #fff;
-				"></i>
-            </div>
+				"></i> 
+            </div>             
             <h2 style=" 
 				font-size: 1.2rem;
 				font-weight: normal;
@@ -222,21 +222,21 @@ height: 100vh;
 				font-size: 1.2rem;
 				font-weight: normal;
 ">Elle inclut le matériel suivant: </p> 
-				<ul style=' 
+            <ul style=' 
 					font-weight: 500;
 					font-size: 1.2rem;
 				' class="list"> 
-					<li>Des 
-						<a style="text-decoration: underline;
+                <li>Des 
+                    <a style="text-decoration: underline;
 color: #2d0bff;
 font-size: 1.2rem;
 " href="assets/pdf/Images/5.1%20Images%20Bonnes%20pratiques/5_1_Images_Bonnes_pratiques.pdf">exemples de Bonnes pratiques dans la conception et l'utilisation des images<img src="assets/img/icone_pdf.png" style=" 
 width: 25px;
 height: auto; margin-left:10px
 "/></a> 
-                    </li>                     
-                    <li>Des 
-                        <a style=" 
+                </li>                 
+                <li>Des 
+                    <a style=" 
 text-decoration: underline;
 color: #2d0bff;
 font-size: 1.2rem;
@@ -244,9 +244,9 @@ font-size: 1.2rem;
 width: 25px;
 height: auto; margin-left:10px
 "/></a> 
-                    </li>                     
-                    <li>Des 
-                        <a style=" 
+                </li>                 
+                <li>Des 
+                    <a style=" 
 text-decoration: underline;
 color: #2d0bff;
 font-size: 1.2rem;
@@ -254,9 +254,9 @@ font-size: 1.2rem;
 width: 25px;
 height: auto; margin-left:10px
 "/></a> 
-                    </li>                     
-                    <li>Des 
-                        <a style=" 
+                </li>                 
+                <li>Des 
+                    <a style=" 
 text-decoration: underline;
 color: #2d0bff;
 font-size: 1.2rem;
@@ -264,9 +264,9 @@ font-size: 1.2rem;
 width: 25px;
 height: auto; margin-left:10px
 "/></a> 
-                    </li>                     
-                    <li>Des 
-                        <a style=" 
+                </li>                 
+                <li>Des 
+                    <a style=" 
 text-decoration: underline;
 color: #2d0bff;
 font-size: 1.2rem;
@@ -274,17 +274,17 @@ font-size: 1.2rem;
 width: 25px;
 height: auto; margin-left:10px
 "/></a> 
-                    </li>                     
-                    <h2 style=" 
+                </li>                 
+                <h2 style=" 
 margin-left: 0;
 font-size: 1.2rem;
 line-height: 2.2rem;
 ">Une Liste de vérification qui comprend des critères recommandés pour concevoir et utiliser des images:</h2> 
-                    <ul> 
-                        <li style=" 
+                <ul> 
+                    <li style=" 
 margin-bottom: 20px;
 "> 
-                            <a name="anchor" style=" 
+                        <a name="anchor" style=" 
 text-decoration: underline;
 color: #0000EE;
 cursor: pointer;
@@ -293,16 +293,16 @@ width: 25px;
 height: auto;
 margin-left: 10px;
 "/></a> 
-                        </li>                         
-                        <li> 
-                            <a name="anchor" style="text-decoration: underline; color: #0000EE; cursor: pointer;" href="assets/pdf/Images/5.6%20Images%20V%C3%A9rification/5_6_Images%20_Verification.docx">Liste de vérification (Version Word)<img src="assets/img/icone_word.png" style=" 
+                    </li>                     
+                    <li> 
+                        <a name="anchor" style="text-decoration: underline; color: #0000EE; cursor: pointer;" href="assets/pdf/Images/5.6%20Images%20V%C3%A9rification/5_6_Images%20_Verification.docx">Liste de vérification (Version Word)<img src="assets/img/icone_word.png" style=" 
 width: 25px;
 height: auto;
 margin-left: 10px;
 "/></a> 
-                        </li>                         
-                    </ul>                     
-                </ul>  
+                    </li>                     
+                </ul>                 
+            </ul>             
         </div>         
         <script src="assets/js/jquery.min.js"></script>         
         <script src="bootstrap/js/bootstrap.min.js"></script>         
@@ -311,6 +311,7 @@ margin-left: 10px;
     </body>     
     <div class="container-fluid" style=" 
 bottom: 0;
+position: fixed;
 " data-pgc="footer"> 
         <div class="row" style="background-color: #1b3c6f; display: flex; flex-direction: column; align-items: center; justify-content: center; flex-wrap: nowrap; align-content: center; height: 70px; margin-top: 7rem;"> 
             <p style=" 
